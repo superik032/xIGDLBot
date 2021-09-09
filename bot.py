@@ -16,7 +16,7 @@ import os
 import zipfile
 import pathlib
 
-bot_token = os.environ.get("BOT_TOKEN", "")
+bot_token = os.environ.get("BOT_TOKEN", "1950929852:AAHjwJcvFYAhESN-xVzTie8r9DsldXeILkg")
 bot = Bot(token=bot_token)
 
 help_keyboard = [[InlineKeyboardButton("Updates Channel", url="https://t.me/MBNUpdates"),
